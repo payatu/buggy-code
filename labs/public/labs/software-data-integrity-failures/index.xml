@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Data Integrity on Code Labs</title>
+    <link>http://localhost:1313/labs/software-data-integrity-failures/</link>
+    <description>Recent content in Software Data Integrity on Code Labs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/labs/software-data-integrity-failures/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Check cookies</title>
+      <link>http://localhost:1313/labs/software-data-integrity-failures/check-cookies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/labs/software-data-integrity-failures/check-cookies/</guid>
+      <description>Challenge Solution Insufficiently sanitized calls to dangerous functions can lead to interesting vulnerabilities. We require you excellent skills to figure out the vulnerability. main.py&#xA;from flask import Flask, request, jsonify, render_template, make_response, redirect, Response import re, pickle, json from base64 import b64encode, b64decode app = Flask(__name__, static_url_path=&amp;#39;/&amp;#39;, static_folder=&amp;#39;static&amp;#39;, template_folder=&amp;#39;templates&amp;#39;) @app.route(&amp;#39;/&amp;#39;) def index(): return render_template(&amp;#39;index.html&amp;#39;) def validation(userinput): res = bool(re.match(&amp;#34;^[A-Za-z0-9]*$&amp;#34;), userinput) if(res==False): raise Exception(&amp;#34;Invalid input&amp;#34;) @app.route(&amp;#39;/login&amp;#39;, methods=[&amp;#39;POST&amp;#39;]) def login(): try: user_data = request.</description>
+    </item>
+  </channel>
+</rss>

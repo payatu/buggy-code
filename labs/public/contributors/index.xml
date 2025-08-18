@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contributors on Code Labs</title>
+    <link>http://localhost:1313/contributors/</link>
+    <description>Recent content in Contributors on Code Labs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/contributors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Akanksha Prasad</title>
+      <link>http://localhost:1313/contributors/akanksha-prasad/9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contributors/akanksha-prasad/9/</guid>
+      <description>Akanksha is a detail-oriented Cybersecurity Consultant and Co-Lead of the Web Application Security Team, with extensive experience delivering VAPT services across web and mobile applications, network infrastructures, API endpoints, thick client applications, cloud configuration audits, SBOM analysis, and threat modeling. She is recognized for guiding technical strategy, mentoring team members, and fostering cross-functional collaboration to ensure cybersecurity initiatives align with organizational objectives. Akanksha holds accredited industry certifications including Web Application Penetration tester Extreme (eWPTX) and actively shares her insights as a blog author at https://aura217.</description>
+    </item>
+    <item>
+      <title>Chinmay Khobre</title>
+      <link>http://localhost:1313/contributors/chinmay-khobre/11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contributors/chinmay-khobre/11/</guid>
+      <description> Chinmay is an experienced cybersecurity professional with deep expertise in application security. He specializes in secure source code reviews across multiple platforms (Java, C#, .NET, Android, iOS), SAST, and software composition analysis. With contributions to DevSecOps initiatives and a working knowledge of web and API security testing, Chinmay supports organizations in building secure, resilient software at scale and holds the EWPTx2 certification.&#xA;Linkedin </description>
+    </item>
+    <item>
+      <title>Hardeep Singh Sandhu</title>
+      <link>http://localhost:1313/contributors/hardeep-singh/8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contributors/hardeep-singh/8/</guid>
+      <description> Hardeep is a dedicated cybersecurity professional specializing in web and API application security. Experienced in conducting comprehensive vulnerability assessments and penetration testing, he actively collaborates with development teams to support effective remediation efforts. With a strong focus on source code review and threat modeling, Hardeep helps organizations build secure and resilient systems. He also holds the Web Application Penetration tester Extreme (eWPTX) certification.&#xA;Linkedin </description>
+    </item>
+    <item>
+      <title>Hari Prasad</title>
+      <link>http://localhost:1313/contributors/hari-prasad/7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contributors/hari-prasad/7/</guid>
+      <description> Hari is a skilled cybersecurity professional with expertise in penetration testing and risk assessment across web, API, mobile, and network environments. Known for a hands-on approach and strong knowledge of industry standards and vulnerability management. Actively contributes to the security community through research and responsible disclosures, with recognition from leading global tech organizations. Hari holds Offensive Security Certified Professional (OSCP) and Certified Red Team Professional (CRTP) certifications.&#xA;Linkedin </description>
+    </item>
+    <item>
+      <title>Mitul Kumar</title>
+      <link>http://localhost:1313/contributors/mitul-kumar/6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contributors/mitul-kumar/6/</guid>
+      <description> Mitul is a dedicated cybersecurity professional with focused experience in web and network security. Skilled in red teaming methodologies and proficient in Python scripting to develop automation tools that enhance security testing and operational efficiency. Committed to leveraging advanced techniques to identify vulnerabilities, strengthen defenses, and support organizational risk management objectives. Mitul holds industry-recognized certifications including Burp Suite Certified Practitioner (BSCP) and Certified Red Team Professional (CRTP).&#xA;Linkedin </description>
+    </item>
+    <item>
+      <title>Mukund Kedia</title>
+      <link>http://localhost:1313/contributors/mukund-kedia/5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contributors/mukund-kedia/5/</guid>
+      <description>Mukund is a cybersecurity enthusiast with hands-on experience in penetration testing and a strong drive to expand expertise across various cybersecurity domains. Passionate about coding, he has developed vulnerable applications and designed Capture The Flag (CTF) challenges, while actively participating in numerous CTF events. Committed to mentoring and educating professionals to foster a stronger security community, Mukund holds the EWPTx2 certification and shares insights as a blog author at https://devplayer55221.</description>
+    </item>
+    <item>
+      <title>Nikhil Memane</title>
+      <link>http://localhost:1313/contributors/nikhil-memane/13/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contributors/nikhil-memane/13/</guid>
+      <description> Nikhil is a versatile cybersecurity professional specializing in web application penetration testing, dedicated to delivering thorough and effective security assessments. He actively participates in Capture The Flag (CTF) challenges, explores web development, and engages in bug bounty programs. Currently advancing his expertise in web security and smart contract auditing, Nikhil holds the Burp Suite Certified Practitioner (BSCP) certification to support his drive for innovative security solutions.&#xA;Linkedin </description>
+    </item>
+    <item>
+      <title>Prajyot Chemburkar</title>
+      <link>http://localhost:1313/contributors/prajyot-chemburkar/4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contributors/prajyot-chemburkar/4/</guid>
+      <description> Prajyot is a detail-oriented cybersecurity professional with a strong background in penetration testing, secure code review, and network infrastructure security. He has demonstrated expertise in identifying and mitigating vulnerabilities across web applications, APIs, and thick client environments. Prajyot holds accredited industry certifications including Burp Suite Certified Practitioner (BSCP) and Certified Android Penetration Tester (CAPT), and actively shares his insights as a blog author at https://iampachinko.site.&#xA;Linkedin </description>
+    </item>
+    <item>
+      <title>Suraj Kumar</title>
+      <link>http://localhost:1313/contributors/suraj-kumar/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contributors/suraj-kumar/3/</guid>
+      <description> Suraj is a Product Security Engineer with over 10 years of experience in application security, threat modeling, and cloud security. He is also the Lead of the Web Application Security Team and has strong expertise in leading and managing offensive security (Offsec) teams. Suraj holds the Offensive Security Certified Professional (OSCP) certification and serves as an OffSec Community Ambassador.&#xA;Linkedin </description>
+    </item>
+    <item>
+      <title>Vaibhav Rajput</title>
+      <link>http://localhost:1313/contributors/vaibhav-rajput/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contributors/vaibhav-rajput/2/</guid>
+      <description> Vaibhav is a detail-oriented cybersecurity professional specializing in web security, reverse engineering, and exploit development. He actively participates in Capture The Flag (CTF) challenges and applies his expertise to tackle complex security problems. Dedicated to making impactful contributions to the cybersecurity community, Vaibhav holds industry-recognized certifications such as OffSec Web Expert.&#xA;Linkedin </description>
+    </item>
+    <item>
+      <title>Yakshita Sharma</title>
+      <link>http://localhost:1313/contributors/yakshita-sharma/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contributors/yakshita-sharma/1/</guid>
+      <description> Yakshita is a versatile cybersecurity professional with expertise in web application, network, and API penetration testing, backed by hands-on experience in real-world security assessments. An active CTF participant and vulnerability researcher, she has been credited with identifying a CVE. Yakshita is focused on advancing her skills in web application security and red teaming techniques and holds the Certified Professional Penetration Tester (eCPPT) certification.&#xA;Linkedin </description>
+    </item>
+  </channel>
+</rss>

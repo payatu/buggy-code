@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Broken Access Control on Code Labs</title>
+    <link>http://localhost:1313/labs/broken-access-control/</link>
+    <description>Recent content in Broken Access Control on Code Labs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/labs/broken-access-control/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Profile load</title>
+      <link>http://localhost:1313/labs/broken-access-control/profile-load/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/labs/broken-access-control/profile-load/</guid>
+      <description>Challenge Solution In this challenge, you are presented with a code that involves the logic for retrieving and displaying the user&amp;rsquo;s profile based on user controllable parameter. Your task is to identify any vulnerabilities present in the code. import java.io.IOException; import javax.servlet.ServletException; import javax.servlet.http.HttpServlet; import javax.servlet.http.HttpServletRequest; import javax.servlet.http.HttpServletResponse; import java.sql.Connection; import java.sql.DriverManager; import java.sql.PreparedStatement; import java.sql.ResultSet; import java.sql.SQLException; public class CheckProfile extends HttpServlet { protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { String requestedUserId = request.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,52 @@
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  backgroundImage:
+    path: "images/templates/hero"
+    filename:
+      desktop: "gradient-desktop.webp"
+      mobile: "gradient-mobile.webp"
+
+  title: "Buggy Codes by Payatu"
+  subtitle: Code review labs by **Payatu** comprising of challenges from all the OWASP Top 10 Web categories in languages like Python, PHP, Java, .NET and Node.js.
+
+
+  cta2Button:
+    icon: rocket_launch
+    btnText: "Get Started"
+    url: "/labs"
+
+  cta3Button:  
+    icon: construction
+    btnText: "Contribute"
+    url: "https://github.com/payatu/buggy-code"
+
+  cta4Button:
+    icon: people
+    btnText: "Contributors"
+    url: "/contributors"
+
+  
+
+  titleLogo:
+    path: "images/logos"
+    filename: "Payatu_logo.png"
+    alt: "Payatu logo"
+    height: 80px
+
+  image:
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "Hero Image.png" # filename of your hero image (including file extension)
+    alt: "Lotus Docs Screenshot" # Optional but recommended
+    boxShadow: true # default 'false' (excludes .svg images)
+    rounded: true # round the image corners? default 'false' (excludes .svg images)
+  
+
+
+imageCompare:
+  enable: false
+  weight: 0
+  #template: image compare

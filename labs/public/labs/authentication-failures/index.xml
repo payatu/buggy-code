@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authentication Failures on Code Labs</title>
+    <link>http://localhost:1313/labs/authentication-failures/</link>
+    <description>Recent content in Authentication Failures on Code Labs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/labs/authentication-failures/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Identity Shuffle</title>
+      <link>http://localhost:1313/labs/authentication-failures/identity-shuffle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/labs/authentication-failures/identity-shuffle/</guid>
+      <description>Challenge Solution This lab demonstrates how to create and manage a user session, which is a temporary and interactive exchange of information between a user and a system. It covers setting session attributes and issuing a session cookie to maintain the session. import javax.servlet.http.Cookie; import javax.servlet.http.HttpServletRequest; import javax.servlet.http.HttpServletResponse; import javax.servlet.http.HttpSession; public class CreateSession extends HttpServlet { protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { String username = request.</description>
+    </item>
+  </channel>
+</rss>

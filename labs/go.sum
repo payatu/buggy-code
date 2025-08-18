@@ -1,0 +1,14 @@
+github.com/banditMukund/lotusdocs v0.0.0-20240615044806-869daf803938 h1:62dvsWLpquB5CtBRok1iYUcxI4xwKBsMsY6i4Or+obM=
+github.com/banditMukund/lotusdocs v0.0.0-20240615044806-869daf803938/go.mod h1:wGrOCJKRkajv3vlvWGmFhz+8K5xsQGTIZcUJmLH7pfE=
+github.com/banditMukund/lotusdocs v0.0.0-20240615085844-9c06ecd41921 h1:qIV03g0WZ10dRGwzFJpBh14H0b+vNqb8zIZeGuZUcTg=
+github.com/banditMukund/lotusdocs v0.0.0-20240615085844-9c06ecd41921/go.mod h1:wGrOCJKRkajv3vlvWGmFhz+8K5xsQGTIZcUJmLH7pfE=
+github.com/banditMukund/lotusdocs v0.0.0-20240615101343-88dd0593e61f h1:E6zgZ6RYQckvJgQXIAueowd9NczK1c/mEWIUw88cZaY=
+github.com/banditMukund/lotusdocs v0.0.0-20240615101343-88dd0593e61f/go.mod h1:wGrOCJKRkajv3vlvWGmFhz+8K5xsQGTIZcUJmLH7pfE=
+github.com/banditMukund/lotusdocs v0.0.0-20240615110635-d3f0c93b7e5e h1:37zX0V457sT0UlnztyvejJJJkvUn214pJl6p14LJABY=
+github.com/banditMukund/lotusdocs v0.0.0-20240615110635-d3f0c93b7e5e/go.mod h1:wGrOCJKRkajv3vlvWGmFhz+8K5xsQGTIZcUJmLH7pfE=
+github.com/colinwilson/lotusdocs v0.1.0 h1:oTC8pAYQp9XDNaUwE4SEY+id3ByNELxIIFrktYEGxYA=
+github.com/colinwilson/lotusdocs v0.1.0/go.mod h1:9zu2REJDi+zdPRcR5/bRYSUR7gkNF4NQLvV38SEoCP8=
+github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 h1:SmpwwN3DNzJWbV+IT8gaFu07ENUFpCvKou5BHYUKuVs=
+github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200/go.mod h1:kx8MBj9T7SFR8ZClWvKZPmmUxBaltkoXvnWlZZcSnYA=
+github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
+github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=

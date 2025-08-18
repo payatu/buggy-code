@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chinmay Khobre on Code Labs</title>
+    <link>http://localhost:1313/contributors/chinmay-khobre/</link>
+    <description>Recent content in Chinmay Khobre on Code Labs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/contributors/chinmay-khobre/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chinmay Khobre</title>
+      <link>http://localhost:1313/contributors/chinmay-khobre/11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contributors/chinmay-khobre/11/</guid>
+      <description>Chinmay is an experienced Security Consultant in Payatu. Experienced in Source Code Review, SAST, DevSecOps, Web Application.&#xA;Linkedin </description>
+    </item>
+  </channel>
+</rss>

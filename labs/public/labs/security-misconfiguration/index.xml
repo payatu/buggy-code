@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security Misconfiguration on Code Labs</title>
+    <link>http://localhost:1313/labs/security-misconfiguration/</link>
+    <description>Recent content in Security Misconfiguration on Code Labs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/labs/security-misconfiguration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Missing checks</title>
+      <link>http://localhost:1313/labs/security-misconfiguration/missing-checks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/labs/security-misconfiguration/missing-checks/</guid>
+      <description>Challenge Solution Our new intern has worked hard on this project allowing authenticated users to download files, but we are afraid if everything is in order? We seek your expertise to ensure that the application is secure and adheres to best practices. const session = require(&amp;#34;express-session&amp;#34;); const app = express(); app.use(session({ secret: process.env.SESSION_SECRET, resave: false, saveUninitialized: true })); app.use(express.urlencoded({ extended: false })); function loginRequired(req, res, next) { if (!req.session.userId) { return res.</description>
+    </item>
+  </channel>
+</rss>

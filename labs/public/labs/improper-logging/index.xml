@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Improper Logging on Code Labs</title>
+    <link>http://localhost:1313/labs/improper-logging/</link>
+    <description>Recent content in Improper Logging on Code Labs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/labs/improper-logging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Login logs</title>
+      <link>http://localhost:1313/labs/improper-logging/login-logs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/labs/improper-logging/login-logs/</guid>
+      <description>Challenge Solution The code is meant to handle user authentication, but unfortunately, it contains a vulnerability. A bonus vulnerability is also present, can you spot that as well? using System; using System.Data; using System.Data.SqlClient; using Microsoft.AspNetCore.Mvc; public class Clients { public string email { get; set; } public string password { get; set; } } [HttpPost] public IActionResult LoginUser([FromBody] Clients model) { var email = model.email; var password = model.</description>
+    </item>
+  </channel>
+</rss>

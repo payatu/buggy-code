@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Server-Side Request Forgery on Code Labs</title>
+    <link>http://localhost:1313/labs/server-side-request-forgery/</link>
+    <description>Recent content in Server-Side Request Forgery on Code Labs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Feb 2024 11:25:01 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/labs/server-side-request-forgery/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fetch weather data</title>
+      <link>http://localhost:1313/labs/server-side-request-forgery/fetch-weather-data/</link>
+      <pubDate>Thu, 22 Feb 2024 11:25:01 +0530</pubDate>
+      <guid>http://localhost:1313/labs/server-side-request-forgery/fetch-weather-data/</guid>
+      <description>Are we getting the weather data correctly?&#xA;HomeController.cs&#xA;Challenge Solution using Microsoft.AspNetCore.Mvc; using MvcApp.Models; using System.Diagnostics; using System.Data.SqlClient; using System.Net; namespace MvcApp.Controllers { public class DataController : Controller { public IActionResult Index() { return View(); } [HttpPost] public IActionResult FetchData ([FromBody] WeatherData wdata) { Debug.WriteLine(&amp;#34;FetchData function!&amp;#34;); string latitude = wdata.latitude; string longitude = wdata.longitude; string weatherurl = wdata.weatherurl; string modweatherurl = wdata.weatherurl &amp;#43; &amp;#34;?latitude=&amp;#34; &amp;#43; latitude &amp;#43; &amp;#34;&amp;amp;longitude=&amp;#34; &amp;#43; longitude &amp;#43; &amp;#34;&amp;amp;current=temperature_2m&amp;#34;; HttpWebRequest request = (HttpWebRequest)HttpWebRequest.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Identification and Authentication Failures on Code Labs</title>
+    <link>http://localhost:1313/labs/identification-and-authentication-failures/</link>
+    <description>Recent content in Identification and Authentication Failures on Code Labs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Feb 2024 12:10:53 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/labs/identification-and-authentication-failures/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IdentityShuffle</title>
+      <link>http://localhost:1313/labs/identification-and-authentication-failures/identityshuffle/</link>
+      <pubDate>Wed, 28 Feb 2024 12:10:53 +0530</pubDate>
+      <guid>http://localhost:1313/labs/identification-and-authentication-failures/identityshuffle/</guid>
+      <description>Challenge description&#xA;Challenge Solution import javax.servlet.http.Cookie; import javax.servlet.http.HttpServletRequest; import javax.servlet.http.HttpServletResponse; import javax.servlet.http.HttpSession; public class CreateSession extends HttpServlet { protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { String username = request.getParameter(&amp;#34;user&amp;#34;); String password = request.getParameter(&amp;#34;pass&amp;#34;); if (isValidUser(username, password)) { HttpSession session = request.getSession(true); session.setAttribute(&amp;#34;username&amp;#34;, username); Cookie cookie = new Cookie(&amp;#34;JSESSIONID&amp;#34;, session.getId()); response.addCookie(cookie); response.sendRedirect(&amp;#34;/dashboard&amp;#34;); } else { response.sendRedirect(&amp;#34;/login&amp;#34;); } } private boolean isValidUser(String username, String password) { // Validation logic } } Solution steps or description</description>
+    </item>
+  </channel>
+</rss>

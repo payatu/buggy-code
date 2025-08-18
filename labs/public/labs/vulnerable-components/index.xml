@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vulnerable Components on Code Labs</title>
+    <link>http://localhost:1313/labs/vulnerable-components/</link>
+    <description>Recent content in Vulnerable Components on Code Labs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/labs/vulnerable-components/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UALog</title>
+      <link>http://localhost:1313/labs/vulnerable-components/ualog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/labs/vulnerable-components/ualog/</guid>
+      <description>Challenge Solution A widely-used, open-source logging framework for Java applications, developed by an OSS Foundation was found to be vulnerable to a critical exploit. We require your excellent skills to figure out the vulnerable framework. package com.firstapp.register; import java.io.IOException; import javax.servlet.ServletException; import javax.servlet.annotation.WebServlet; import javax.servlet.http.HttpServlet; import javax.servlet.http.HttpServletRequest; import javax.servlet.http.HttpServletResponse; import org.apache.logging.log4j.LogManager; import org.apache.logging.log4j.Logger; @WebServlet(&amp;#34;/log&amp;#34;) public class doLog extends HttpServlet { private static final long serialVersionUID = 1L; // using log4j library 2.</description>
+    </item>
+  </channel>
+</rss>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prajyot Chemburkar on Code Labs</title>
-    <link>http://localhost:1313/contributors/prajyot-chemburkar/</link>
+    <link>/contributors/prajyot-chemburkar/</link>
     <description>Recent content in Prajyot Chemburkar on Code Labs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/contributors/prajyot-chemburkar/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/contributors/prajyot-chemburkar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prajyot Chemburkar</title>
-      <link>http://localhost:1313/contributors/prajyot-chemburkar/4/</link>
+      <link>/contributors/prajyot-chemburkar/4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contributors/prajyot-chemburkar/4/</guid>
+      <guid>/contributors/prajyot-chemburkar/4/</guid>
       <description>Prajyot is an experienced Security Consultant in Payatu. Experienced in pentesting Web Application, Mobile Application, Thick and Thin Client application, Enterprise Network and Cloud environment.&#xA;Linkedin </description>
     </item>
   </channel>

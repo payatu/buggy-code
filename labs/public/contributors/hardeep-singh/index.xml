@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hardeep Singh on Code Labs</title>
-    <link>http://localhost:1313/contributors/hardeep-singh/</link>
+    <link>/contributors/hardeep-singh/</link>
     <description>Recent content in Hardeep Singh on Code Labs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/contributors/hardeep-singh/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/contributors/hardeep-singh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hardeep Singh Sandhu</title>
-      <link>http://localhost:1313/contributors/hardeep-singh/8/</link>
+      <link>/contributors/hardeep-singh/8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contributors/hardeep-singh/8/</guid>
+      <guid>/contributors/hardeep-singh/8/</guid>
       <description>Hardeep is a Security Consultant at Payatu, dealing in web security assessments and learning about cloud security on the go.&#xA;Linkedin </description>
     </item>
   </channel>

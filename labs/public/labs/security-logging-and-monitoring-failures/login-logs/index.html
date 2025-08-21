@@ -27,20 +27,20 @@
     <meta name="website" content="https://lotusdocs.dev" />
     <meta name="Version" content="v0.1.0" />
     
-    <link rel="icon" href="http://localhost:1313/favicon.ico" sizes="any">
-<link rel="icon" type="image/svg+xml" href="http://localhost:1313/favicon.svg">
-<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="/site.webmanifest">
 <meta property="og:title" content="Login logs" />
 <meta property="og:description" content="HomeController.cs
 Challenge Solution [HttpPost] public IActionResult LoginUser([FromBody] Clients model) { var email = model.email; var password = model.password; string constring = &#34;Data Source=localhost\\sqlexpress;Initial Catalog=testdb;Integrated Security=True&#34;; var log = &#34;User &#34; &#43; email &#43; &#34; logged in.&#34;; using (SqlConnection con = new SqlConnection(constring)) { con.Open(); string query = &#34;INSERT INTO logs (log) values (@log)&#34;; SqlParameter logParam = new SqlParameter(&#34;@log&#34;, SqlDbType.NVarChar, 50); logParam.Value = log; using (SqlCommand cmd = new SqlCommand(query, con)) { SqlDataReader reader = cmd." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/labs/security-logging-and-monitoring-failures/login-logs/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu1657144098181264364.png"/><meta property="article:section" content="docs" />
+<meta property="og:url" content="/labs/security-logging-and-monitoring-failures/login-logs/" /><meta property="og:image" content="/opengraph/card-base-2_hu1657144098181264364.png"/><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2024-02-22T12:01:14+05:30" />
 <meta property="article:modified_time" content="2024-02-22T12:01:14+05:30" /><meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu1657144098181264364.png"/>
+<meta name="twitter:image" content="/opengraph/card-base-2_hu1657144098181264364.png"/>
 <meta name="twitter:title" content="Login logs"/>
 <meta name="twitter:description" content="HomeController.cs
 Challenge Solution [HttpPost] public IActionResult LoginUser([FromBody] Clients model) { var email = model.email; var password = model.password; string constring = &#34;Data Source=localhost\\sqlexpress;Initial Catalog=testdb;Integrated Security=True&#34;; var log = &#34;User &#34; &#43; email &#43; &#34; logged in.&#34;; using (SqlConnection con = new SqlConnection(constring)) { con.Open(); string query = &#34;INSERT INTO logs (log) values (@log)&#34;; SqlParameter logParam = new SqlParameter(&#34;@log&#34;, SqlDbType.NVarChar, 50); logParam.Value = log; using (SqlCommand cmd = new SqlCommand(query, con)) { SqlDataReader reader = cmd."/>
@@ -108,7 +108,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/broken-access-control/broken-access-control-profile/">Broken Access Control - Profile</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/broken-access-control/broken-access-control-profile/">Broken Access Control - Profile</a></li>
                                         
                                     
                                 </ul>
@@ -127,7 +127,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/cryptographic-failures/secure-password-reset/">Secure Password Reset</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/cryptographic-failures/secure-password-reset/">Secure Password Reset</a></li>
                                         
                                     
                                 </ul>
@@ -146,7 +146,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/identification-and-authentication-failures/identityshuffle/">IdentityShuffle</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/identification-and-authentication-failures/identityshuffle/">IdentityShuffle</a></li>
                                         
                                     
                                 </ul>
@@ -165,7 +165,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class="current no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/security-logging-and-monitoring-failures/login-logs/">Login logs</a></li>
+                                            <li class="current no-icon"><a class="sidebar-nested-link" href="/labs/security-logging-and-monitoring-failures/login-logs/">Login logs</a></li>
                                         
                                     
                                 </ul>
@@ -184,7 +184,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/injection/make-payment/">Make Payment</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/injection/make-payment/">Make Payment</a></li>
                                         
                                     
                                 </ul>
@@ -203,7 +203,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/insecure-design/upload-the-pic/">Upload the Pic</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/insecure-design/upload-the-pic/">Upload the Pic</a></li>
                                         
                                     
                                 </ul>
@@ -222,7 +222,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/security-misconfiguration/missing-checks/">Missing checks</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/security-misconfiguration/missing-checks/">Missing checks</a></li>
                                         
                                     
                                 </ul>
@@ -241,7 +241,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/server-side-request-forgery/fetch-weather-data/">Fetch weather data</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/server-side-request-forgery/fetch-weather-data/">Fetch weather data</a></li>
                                         
                                     
                                 </ul>
@@ -260,7 +260,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/software-and-data-integrity-failures/check-cookies/">Check cookies</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/software-and-data-integrity-failures/check-cookies/">Check cookies</a></li>
                                         
                                     
                                 </ul>
@@ -279,7 +279,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/vulnerable-and-outdated-components/ualog/">UALog</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/vulnerable-and-outdated-components/ualog/">UALog</a></li>
                                         
                                     
                                 </ul>
@@ -749,7 +749,7 @@ public IActionResult LoginUser([FromBody] Clients model)
     <script src="/docs/js/bootstrap.js" defer></script>
 
 
-    <script type="text/javascript" src="http://localhost:1313/docs/js/bundle.js" defer></script>
+    <script type="text/javascript" src="/docs/js/bundle.js" defer></script>
         
 
         

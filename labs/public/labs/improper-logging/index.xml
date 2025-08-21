@@ -13,7 +13,7 @@
       <link>http://localhost:1313/labs/improper-logging/login-logs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/labs/improper-logging/login-logs/</guid>
-      <description>Challenge Solution The code is meant to handle user authentication, but unfortunately, it contains a vulnerability. A bonus vulnerability is also present, can you spot that as well? using System; using System.Data; using System.Data.SqlClient; using Microsoft.AspNetCore.Mvc; public class Clients { public string email { get; set; } public string password { get; set; } } [HttpPost] public IActionResult LoginUser([FromBody] Clients model) { var email = model.email; var password = model.</description>
+      <description>Challenge Solution The code is meant to handle user authentication, but unfortunately, it contains a vulnerability. A bonus vulnerability is also present, can you spot that as well? using System;&#xD;using System.Data;&#xD;using System.Data.SqlClient;&#xD;using Microsoft.AspNetCore.Mvc;&#xD;public class Clients&#xD;{&#xD;public string email { get; set; }&#xD;public string password { get; set; }&#xD;}&#xD;[HttpPost]&#xD;public IActionResult LoginUser([FromBody] Clients model)&#xD;{&#xD;var email = model.email;&#xD;var password = model.</description>
     </item>
   </channel>
 </rss>

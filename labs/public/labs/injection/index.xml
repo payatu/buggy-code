@@ -13,7 +13,7 @@
       <link>http://localhost:1313/labs/injection/make-payment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/labs/injection/make-payment/</guid>
-      <description>Challenge Solution We urgently need a microservice that can handle payments. So our new intern created one using flask and werkzeug but it seems that our new intern made a mistake. We require your excellent skills to figure out the issue. makePayment.py&#xA;from flask import Flask, request import hashlib import sqlite3 app = Flask(__name__) @app.route(&amp;#34;/pay&amp;#34;, methods=[&amp;#39;POST&amp;#39;]) def handlePay(): connection = sqlite3.connect(&amp;#39;database.db&amp;#39;) cur = connection.cursor() amount = request.form.get(&amp;#34;amount&amp;#34;) if not amount: return &amp;#34;Missing amount&amp;#34;, 400 userid = request.</description>
+      <description>Challenge Solution We urgently need a microservice that can handle payments. So our new intern created one using flask and werkzeug but it seems that our new intern made a mistake. We require your excellent skills to figure out the issue. makePayment.py&#xA;from flask import Flask, request&#xD;import hashlib&#xD;import sqlite3&#xD;app = Flask(__name__)&#xD;@app.route(&amp;#34;/pay&amp;#34;, methods=[&amp;#39;POST&amp;#39;])&#xD;def handlePay():&#xD;connection = sqlite3.connect(&amp;#39;database.db&amp;#39;)&#xD;cur = connection.cursor()&#xD;amount = request.form.get(&amp;#34;amount&amp;#34;)&#xD;if not amount:&#xD;return &amp;#34;Missing amount&amp;#34;, 400&#xD;userid = request.</description>
     </item>
   </channel>
 </rss>

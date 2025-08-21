@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vulnerable and Outdated Components on Code Labs</title>
-    <link>http://localhost:1313/labs/vulnerable-and-outdated-components/</link>
+    <link>/labs/vulnerable-and-outdated-components/</link>
     <description>Recent content in Vulnerable and Outdated Components on Code Labs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Feb 2024 12:10:53 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/labs/vulnerable-and-outdated-components/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/labs/vulnerable-and-outdated-components/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>UALog</title>
-      <link>http://localhost:1313/labs/vulnerable-and-outdated-components/ualog/</link>
+      <link>/labs/vulnerable-and-outdated-components/ualog/</link>
       <pubDate>Wed, 28 Feb 2024 12:10:53 +0530</pubDate>
-      <guid>http://localhost:1313/labs/vulnerable-and-outdated-components/ualog/</guid>
+      <guid>/labs/vulnerable-and-outdated-components/ualog/</guid>
       <description>Challenge description&#xA;Challenge Solution package com.firstapp.register; import java.io.IOException; import javax.servlet.ServletException; import javax.servlet.annotation.WebServlet; import javax.servlet.http.HttpServlet; import javax.servlet.http.HttpServletRequest; import javax.servlet.http.HttpServletResponse; import org.apache.logging.log4j.LogManager; import org.apache.logging.log4j.Logger; @WebServlet(&amp;#34;/log&amp;#34;) public class doLog extends HttpServlet { private static final long serialVersionUID = 1L; // using log4j library 2.14.0 for logging private static final Logger logger = LogManager.getLogger(log4shell.class); protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { String userAgent = request.getHeader(&amp;#34;User-Agent&amp;#34;); logger.error(&amp;#34;User-Agent: &amp;#34; &amp;#43; userAgent); } } Solution steps or description</description>
     </item>
   </channel>

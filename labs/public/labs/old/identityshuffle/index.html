@@ -27,20 +27,20 @@
     <meta name="website" content="https://lotusdocs.dev" />
     <meta name="Version" content="v0.1.0" />
     
-    <link rel="icon" href="http://localhost:1313/favicon.ico" sizes="any">
-<link rel="icon" type="image/svg+xml" href="http://localhost:1313/favicon.svg">
-<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="/site.webmanifest">
 <meta property="og:title" content="IdentityShuffle" />
 <meta property="og:description" content="Challenge description
 Challenge Solution import javax.servlet.http.Cookie; import javax.servlet.http.HttpServletRequest; import javax.servlet.http.HttpServletResponse; import javax.servlet.http.HttpSession; public class CreateSession extends HttpServlet { protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { String username = request.getParameter(&#34;user&#34;); String password = request.getParameter(&#34;pass&#34;); if (isValidUser(username, password)) { HttpSession session = request.getSession(true); session.setAttribute(&#34;username&#34;, username); Cookie cookie = new Cookie(&#34;JSESSIONID&#34;, session.getId()); response.addCookie(cookie); response.sendRedirect(&#34;/dashboard&#34;); } else { response.sendRedirect(&#34;/login&#34;); } } private boolean isValidUser(String username, String password) { // Validation logic } } Solution steps or description" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/labs/old/identityshuffle/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu5528172685666569037.png"/><meta property="article:section" content="docs" />
+<meta property="og:url" content="/labs/old/identityshuffle/" /><meta property="og:image" content="/opengraph/card-base-2_hu5528172685666569037.png"/><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2024-02-28T12:10:53+05:30" />
 <meta property="article:modified_time" content="2024-02-28T12:10:53+05:30" /><meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu5528172685666569037.png"/>
+<meta name="twitter:image" content="/opengraph/card-base-2_hu5528172685666569037.png"/>
 <meta name="twitter:title" content="IdentityShuffle"/>
 <meta name="twitter:description" content="Challenge description
 Challenge Solution import javax.servlet.http.Cookie; import javax.servlet.http.HttpServletRequest; import javax.servlet.http.HttpServletResponse; import javax.servlet.http.HttpSession; public class CreateSession extends HttpServlet { protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { String username = request.getParameter(&#34;user&#34;); String password = request.getParameter(&#34;pass&#34;); if (isValidUser(username, password)) { HttpSession session = request.getSession(true); session.setAttribute(&#34;username&#34;, username); Cookie cookie = new Cookie(&#34;JSESSIONID&#34;, session.getId()); response.addCookie(cookie); response.sendRedirect(&#34;/dashboard&#34;); } else { response.sendRedirect(&#34;/login&#34;); } } private boolean isValidUser(String username, String password) { // Validation logic } } Solution steps or description"/>
@@ -108,7 +108,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/old/broken-access-control-profile/">Broken Access Control - Profile</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/old/broken-access-control-profile/">Broken Access Control - Profile</a></li>
                                         
                                     
                                 </ul>
@@ -127,7 +127,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/old/secure-password-reset/">Secure Password Reset</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/old/secure-password-reset/">Secure Password Reset</a></li>
                                         
                                     
                                 </ul>
@@ -146,7 +146,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class="current no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/old/identityshuffle/">IdentityShuffle</a></li>
+                                            <li class="current no-icon"><a class="sidebar-nested-link" href="/labs/old/identityshuffle/">IdentityShuffle</a></li>
                                         
                                     
                                 </ul>
@@ -165,7 +165,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/old/login-logs/">Login logs</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/old/login-logs/">Login logs</a></li>
                                         
                                     
                                 </ul>
@@ -184,7 +184,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/old/make-payment/">Make Payment</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/old/make-payment/">Make Payment</a></li>
                                         
                                     
                                 </ul>
@@ -203,7 +203,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/old/upload-the-pic/">Upload the Pic</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/old/upload-the-pic/">Upload the Pic</a></li>
                                         
                                     
                                 </ul>
@@ -222,7 +222,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/old/missing-checks/">Missing checks</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/old/missing-checks/">Missing checks</a></li>
                                         
                                     
                                 </ul>
@@ -241,7 +241,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/old/fetch-weather-data/">Fetch weather data</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/old/fetch-weather-data/">Fetch weather data</a></li>
                                         
                                     
                                 </ul>
@@ -260,7 +260,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/old/check-cookies/">Check cookies</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/old/check-cookies/">Check cookies</a></li>
                                         
                                     
                                 </ul>
@@ -279,7 +279,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/old/ualog/">UALog</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/old/ualog/">UALog</a></li>
                                         
                                     
                                 </ul>
@@ -298,7 +298,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/authentication-failures/chall-auth-1-identity-shuffle/">Chall auth 1 : Identity Shuffle</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/authentication-failures/chall-auth-1-identity-shuffle/">Chall auth 1 : Identity Shuffle</a></li>
                                         
                                     
                                 </ul>
@@ -317,7 +317,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/broken-access-control/chall-bac-1/">Chall bac 1</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/broken-access-control/chall-bac-1/">Chall bac 1</a></li>
                                         
                                     
                                 </ul>
@@ -336,7 +336,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/cryptographic-failures/chall-crypto-1-secure-password-reset/">Chall crypto 1 : Secure Password Reset</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/cryptographic-failures/chall-crypto-1-secure-password-reset/">Chall crypto 1 : Secure Password Reset</a></li>
                                         
                                     
                                 </ul>
@@ -355,7 +355,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/improper-logging/chall-logging-1-login-logs/">Chall logging 1 : Login logs</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/improper-logging/chall-logging-1-login-logs/">Chall logging 1 : Login logs</a></li>
                                         
                                     
                                 </ul>
@@ -374,7 +374,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/injection/chall-injection-1-make-payment/">chall injection 1: Make Payment</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/injection/chall-injection-1-make-payment/">chall injection 1: Make Payment</a></li>
                                         
                                     
                                 </ul>
@@ -393,7 +393,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/insecure-design/chall-design-1-upload-the-pic/">chall design 1: Upload the Pic</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/insecure-design/chall-design-1-upload-the-pic/">chall design 1: Upload the Pic</a></li>
                                         
                                     
                                 </ul>
@@ -412,7 +412,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/security-misconfiguration/chall-misconfig-1-missing-checks/">chall misconfig 1: Missing checks</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/security-misconfiguration/chall-misconfig-1-missing-checks/">chall misconfig 1: Missing checks</a></li>
                                         
                                     
                                 </ul>
@@ -431,7 +431,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/software-data-integrity-failures/chall-software-1-check-cookies/">chall software 1: Check cookies</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/software-data-integrity-failures/chall-software-1-check-cookies/">chall software 1: Check cookies</a></li>
                                         
                                     
                                 </ul>
@@ -450,7 +450,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/ssrf/chall-ssrf-1-fetch-weather-data/">chall ssrf 1: Fetch weather data</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/ssrf/chall-ssrf-1-fetch-weather-data/">chall ssrf 1: Fetch weather data</a></li>
                                         
                                     
                                 </ul>
@@ -469,7 +469,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/vulnerable-components/chall-component-1-ualog/">chall component 1: UALog</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/vulnerable-components/chall-component-1-ualog/">chall component 1: UALog</a></li>
                                         
                                     
                                 </ul>
@@ -915,7 +915,7 @@ public class CreateSession extends HttpServlet {
     <script src="/docs/js/bootstrap.js" defer></script>
 
 
-    <script type="text/javascript" src="http://localhost:1313/docs/js/bundle.js" defer></script>
+    <script type="text/javascript" src="/docs/js/bundle.js" defer></script>
         
 
         

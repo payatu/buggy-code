@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Improper Logging and Monitoring Failures on Code Labs</title>
-    <link>http://localhost:1313/labs/security-logging-and-monitoring-failures/</link>
+    <link>/labs/security-logging-and-monitoring-failures/</link>
     <description>Recent content in Improper Logging and Monitoring Failures on Code Labs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Feb 2024 12:01:14 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/labs/security-logging-and-monitoring-failures/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/labs/security-logging-and-monitoring-failures/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Login logs</title>
-      <link>http://localhost:1313/labs/security-logging-and-monitoring-failures/login-logs/</link>
+      <link>/labs/security-logging-and-monitoring-failures/login-logs/</link>
       <pubDate>Thu, 22 Feb 2024 12:01:14 +0530</pubDate>
-      <guid>http://localhost:1313/labs/security-logging-and-monitoring-failures/login-logs/</guid>
+      <guid>/labs/security-logging-and-monitoring-failures/login-logs/</guid>
       <description>HomeController.cs&#xA;Challenge Solution [HttpPost] public IActionResult LoginUser([FromBody] Clients model) { var email = model.email; var password = model.password; string constring = &amp;#34;Data Source=localhost\\sqlexpress;Initial Catalog=testdb;Integrated Security=True&amp;#34;; var log = &amp;#34;User &amp;#34; &amp;#43; email &amp;#43; &amp;#34; logged in.&amp;#34;; using (SqlConnection con = new SqlConnection(constring)) { con.Open(); string query = &amp;#34;INSERT INTO logs (log) values (@log)&amp;#34;; SqlParameter logParam = new SqlParameter(&amp;#34;@log&amp;#34;, SqlDbType.NVarChar, 50); logParam.Value = log; using (SqlCommand cmd = new SqlCommand(query, con)) { SqlDataReader reader = cmd.</description>
     </item>
   </channel>

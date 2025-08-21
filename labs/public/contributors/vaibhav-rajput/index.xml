@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vaibhav Rajput on Code Labs</title>
-    <link>http://localhost:1313/contributors/vaibhav-rajput/</link>
+    <link>/contributors/vaibhav-rajput/</link>
     <description>Recent content in Vaibhav Rajput on Code Labs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/contributors/vaibhav-rajput/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/contributors/vaibhav-rajput/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vaibhav Rajput</title>
-      <link>http://localhost:1313/contributors/vaibhav-rajput/2/</link>
+      <link>/contributors/vaibhav-rajput/2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contributors/vaibhav-rajput/2/</guid>
+      <guid>/contributors/vaibhav-rajput/2/</guid>
       <description>Vaibhav is an experienced Security Consultant in Payatu. Experienced in pentesting Web Application, Mobile Application, Thick and Thin Client application, Enterprise Network and Cloud environment.&#xA;Linkedin </description>
     </item>
   </channel>

@@ -13,7 +13,7 @@
       <link>http://localhost:1313/labs/security-misconfiguration/missing-checks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/labs/security-misconfiguration/missing-checks/</guid>
-      <description>Challenge Solution Our new intern has worked hard on this project allowing authenticated users to download files, but we are afraid if everything is in order? We seek your expertise to ensure that the application is secure and adheres to best practices. const session = require(&amp;#34;express-session&amp;#34;); const app = express(); app.use(session({ secret: process.env.SESSION_SECRET, resave: false, saveUninitialized: true })); app.use(express.urlencoded({ extended: false })); function loginRequired(req, res, next) { if (!req.session.userId) { return res.</description>
+      <description>Challenge Solution Our new intern has worked hard on this project allowing authenticated users to download files, but we are afraid if everything is in order? We seek your expertise to ensure that the application is secure and adheres to best practices. const session = require(&amp;#34;express-session&amp;#34;);&#xD;const app = express();&#xD;app.use(session({&#xD;secret: process.env.SESSION_SECRET,&#xD;resave: false,&#xD;saveUninitialized: true&#xD;}));&#xD;app.use(express.urlencoded({ extended: false }));&#xD;function loginRequired(req, res, next) {&#xD;if (!req.session.userId) {&#xD;return res.</description>
     </item>
   </channel>
 </rss>

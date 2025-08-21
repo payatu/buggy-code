@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software and Data Integrity Failures on Code Labs</title>
-    <link>http://localhost:1313/labs/software-and-data-integrity-failures/</link>
+    <link>/labs/software-and-data-integrity-failures/</link>
     <description>Recent content in Software and Data Integrity Failures on Code Labs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 27 Feb 2024 18:45:55 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/labs/software-and-data-integrity-failures/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/labs/software-and-data-integrity-failures/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Check cookies</title>
-      <link>http://localhost:1313/labs/software-and-data-integrity-failures/check-cookies/</link>
+      <link>/labs/software-and-data-integrity-failures/check-cookies/</link>
       <pubDate>Tue, 27 Feb 2024 18:45:55 +0530</pubDate>
-      <guid>http://localhost:1313/labs/software-and-data-integrity-failures/check-cookies/</guid>
+      <guid>/labs/software-and-data-integrity-failures/check-cookies/</guid>
       <description>Are cookies being read properly?&#xA;Challenge Solution main.py&#xA;from flask import Flask, request, jsonify, render_template, make_response, redirect, Response import re, pickle, json from base64 import b64encode, b64decode app = Flask(__name__, static_url_path=&amp;#39;/&amp;#39;, static_folder=&amp;#39;static&amp;#39;, template_folder=&amp;#39;templates&amp;#39;) @app.route(&amp;#39;/&amp;#39;) def index(): return render_template(&amp;#39;index.html&amp;#39;) def validation(userinput): res = bool(re.match(&amp;#34;^[A-Za-z0-9]*$&amp;#34;), userinput) if(res==False): raise Exception(&amp;#34;Invalid input&amp;#34;) @app.route(&amp;#39;/login&amp;#39;, methods=[&amp;#39;POST&amp;#39;]) def login(): try: user_data = request.get_json() validation(userdata[&amp;#39;username&amp;#39;]) users = mongo.db.users user = users.find_one({&amp;#39;username&amp;#39;: user_data[&amp;#39;username&amp;#39;]}) if user in user_data[&amp;#39;username&amp;#39;]: token =json.dumps(user_data) serialized_token = b64encode(pickle.</description>
     </item>
   </channel>

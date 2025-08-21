@@ -35,7 +35,7 @@
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
 <meta property="og:title" content="Check cookies" />
 <meta property="og:description" content="Challenge Solution Insufficiently sanitized calls to dangerous functions can lead to interesting vulnerabilities. We require you excellent skills to figure out the vulnerability. main.py
-from flask import Flask, request, jsonify, render_template, make_response, redirect, Response import re, pickle, json from base64 import b64encode, b64decode app = Flask(__name__, static_url_path=&#39;/&#39;, static_folder=&#39;static&#39;, template_folder=&#39;templates&#39;) @app.route(&#39;/&#39;) def index(): return render_template(&#39;index.html&#39;) def validation(userinput): res = bool(re.match(&#34;^[A-Za-z0-9]*$&#34;), userinput) if(res==False): raise Exception(&#34;Invalid input&#34;) @app.route(&#39;/login&#39;, methods=[&#39;POST&#39;]) def login(): try: user_data = request." />
+from flask import Flask, request, jsonify, render_template, make_response, redirect, Responseimport re, pickle, jsonfrom base64 import b64encode, b64decodeapp = Flask(__name__, static_url_path=&#39;/&#39;, static_folder=&#39;static&#39;, template_folder=&#39;templates&#39;)@app.route(&#39;/&#39;)def index():return render_template(&#39;index.html&#39;)def validation(userinput):res = bool(re.match(&#34;^[A-Za-z0-9]*$&#34;), userinput)if(res==False):raise Exception(&#34;Invalid input&#34;)@app.route(&#39;/login&#39;, methods=[&#39;POST&#39;])def login():try:user_data = request." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/labs/software-data-integrity-failures/check-cookies/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu7172556740800792029.png"/><meta property="article:section" content="docs" />
 
@@ -43,7 +43,7 @@ from flask import Flask, request, jsonify, render_template, make_response, redir
 <meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu7172556740800792029.png"/>
 <meta name="twitter:title" content="Check cookies"/>
 <meta name="twitter:description" content="Challenge Solution Insufficiently sanitized calls to dangerous functions can lead to interesting vulnerabilities. We require you excellent skills to figure out the vulnerability. main.py
-from flask import Flask, request, jsonify, render_template, make_response, redirect, Response import re, pickle, json from base64 import b64encode, b64decode app = Flask(__name__, static_url_path=&#39;/&#39;, static_folder=&#39;static&#39;, template_folder=&#39;templates&#39;) @app.route(&#39;/&#39;) def index(): return render_template(&#39;index.html&#39;) def validation(userinput): res = bool(re.match(&#34;^[A-Za-z0-9]*$&#34;), userinput) if(res==False): raise Exception(&#34;Invalid input&#34;) @app.route(&#39;/login&#39;, methods=[&#39;POST&#39;]) def login(): try: user_data = request."/>
+from flask import Flask, request, jsonify, render_template, make_response, redirect, Responseimport re, pickle, jsonfrom base64 import b64encode, b64decodeapp = Flask(__name__, static_url_path=&#39;/&#39;, static_folder=&#39;static&#39;, template_folder=&#39;templates&#39;)@app.route(&#39;/&#39;)def index():return render_template(&#39;index.html&#39;)def validation(userinput):res = bool(re.match(&#34;^[A-Za-z0-9]*$&#34;), userinput)if(res==False):raise Exception(&#34;Invalid input&#34;)@app.route(&#39;/login&#39;, methods=[&#39;POST&#39;])def login():try:user_data = request."/>
 
     
     <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
@@ -502,14 +502,14 @@ viewBox="0 -3 400 100" width="320" height="90"
 		
 
 		<a class="nav-link  active"
-		   id="afecbdTab" data-bs-toggle="tab" data-bs-target="#afecbd"
-		   type="button" role="tab" aria-controls="afecbd" aria-selected="true">Challenge</a>
+		   id="ebcdfaTab" data-bs-toggle="tab" data-bs-target="#ebcdfa"
+		   type="button" role="tab" aria-controls="ebcdfa" aria-selected="true">Challenge</a>
 
 		
 
 		<a class="nav-link "
-		   id="decabfTab" data-bs-toggle="tab" data-bs-target="#decabf"
-		   type="button" role="tab" aria-controls="decabf" aria-selected="true">Solution</a>
+		   id="fecbadTab" data-bs-toggle="tab" data-bs-target="#fecbad"
+		   type="button" role="tab" aria-controls="fecbad" aria-selected="true">Solution</a>
 
 		
 
@@ -525,7 +525,7 @@ viewBox="0 -3 400 100" width="320" height="90"
 
 
 
-<div class="tab-pane fade show active" id="afecbd" role="tabpanel" aria-labelledby="nav-1">
+<div class="tab-pane fade show active" id="ebcdfa" role="tabpanel" aria-labelledby="nav-1">
 
 	<ul>
 <li>Insufficiently sanitized calls to dangerous functions can lead to interesting vulnerabilities. We require you excellent skills to figure out the vulnerability.</li>
@@ -617,7 +617,7 @@ if __name__ == &#39;__main__&#39;:
 
 
 
-<div class="tab-pane fade" id="decabf" role="tabpanel" aria-labelledby="nav-1">
+<div class="tab-pane fade" id="fecbad" role="tabpanel" aria-labelledby="nav-1">
 
 	
 
@@ -668,7 +668,7 @@ if __name__ == &#39;__main__&#39;:
   
 
   <div class="prism-codeblock  anchorlinenos hl_lines linenos">
-  <pre id="24c7cb8" class="language-python  line-numbers linkable-line-numbers" data-line="3,5-7" data-line-offset="1">
+  <pre id="bf14b88" class="language-python  line-numbers linkable-line-numbers" data-line="3,5-7" data-line-offset="1">
   <code>Stay tuned for updates on the solution !!</code>
   </pre>
   </div>
@@ -719,7 +719,7 @@ if __name__ == &#39;__main__&#39;:
                 <div class="text-sm-start text-center mx-md-2">
                     <p class="mb-0">
                         
-                        © 2025 Buggy Codes by Payatu. Built with <a href="https://github.com/banditMukund/lotusdocs"><strong>Lotus Docs</strong></a>
+                        © 2025 Buggy Codes by Payatu. Built with <a href="https://github.com/colinwilson/lotusdocs"><strong>Lotus Docs</strong></a>
                     </p>
                 </div>
             </div>

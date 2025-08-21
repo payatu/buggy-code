@@ -28,7 +28,7 @@ title = 'Code Labs'
 
              
     [params.footer]
-            copyright = "© :YEAR: Buggy Codes by Payatu. Built with [**Lotus Docs**](https://github.com/banditMukund/lotusdocs)"
+            copyright = "© :YEAR: Buggy Codes by Payatu. Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)"
             version   = true # include git commit info in footer
 
 

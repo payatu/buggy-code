@@ -27,21 +27,21 @@
     <meta name="website" content="https://lotusdocs.dev" />
     <meta name="Version" content="v0.1.0" />
     
-    <link rel="icon" href="http://localhost:1313/favicon.ico" sizes="any">
-<link rel="icon" type="image/svg+xml" href="http://localhost:1313/favicon.svg">
-<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="/site.webmanifest">
 <meta property="og:title" content="Fetch weather data" />
 <meta property="og:description" content="Are we getting the weather data correctly?
 HomeController.cs
 Challenge Solution using Microsoft.AspNetCore.Mvc; using MvcApp.Models; using System.Diagnostics; using System.Data.SqlClient; using System.Net; namespace MvcApp.Controllers { public class DataController : Controller { public IActionResult Index() { return View(); } [HttpPost] public IActionResult FetchData ([FromBody] WeatherData wdata) { Debug.WriteLine(&#34;FetchData function!&#34;); string latitude = wdata.latitude; string longitude = wdata.longitude; string weatherurl = wdata.weatherurl; string modweatherurl = wdata.weatherurl &#43; &#34;?latitude=&#34; &#43; latitude &#43; &#34;&amp;longitude=&#34; &#43; longitude &#43; &#34;&amp;current=temperature_2m&#34;; HttpWebRequest request = (HttpWebRequest)HttpWebRequest." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/labs/server-side-request-forgery/fetch-weather-data/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu14538590792632486378.png"/><meta property="article:section" content="docs" />
+<meta property="og:url" content="/labs/server-side-request-forgery/fetch-weather-data/" /><meta property="og:image" content="/opengraph/card-base-2_hu14538590792632486378.png"/><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2024-02-22T11:25:01+05:30" />
 <meta property="article:modified_time" content="2024-02-22T11:25:01+05:30" /><meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu14538590792632486378.png"/>
+<meta name="twitter:image" content="/opengraph/card-base-2_hu14538590792632486378.png"/>
 <meta name="twitter:title" content="Fetch weather data"/>
 <meta name="twitter:description" content="Are we getting the weather data correctly?
 HomeController.cs
@@ -110,7 +110,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/broken-access-control/broken-access-control-profile/">Broken Access Control - Profile</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/broken-access-control/broken-access-control-profile/">Broken Access Control - Profile</a></li>
                                         
                                     
                                 </ul>
@@ -129,7 +129,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/cryptographic-failures/secure-password-reset/">Secure Password Reset</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/cryptographic-failures/secure-password-reset/">Secure Password Reset</a></li>
                                         
                                     
                                 </ul>
@@ -148,7 +148,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/identification-and-authentication-failures/identityshuffle/">IdentityShuffle</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/identification-and-authentication-failures/identityshuffle/">IdentityShuffle</a></li>
                                         
                                     
                                 </ul>
@@ -167,7 +167,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/security-logging-and-monitoring-failures/login-logs/">Login logs</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/security-logging-and-monitoring-failures/login-logs/">Login logs</a></li>
                                         
                                     
                                 </ul>
@@ -186,7 +186,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/injection/make-payment/">Make Payment</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/injection/make-payment/">Make Payment</a></li>
                                         
                                     
                                 </ul>
@@ -205,7 +205,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/insecure-design/upload-the-pic/">Upload the Pic</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/insecure-design/upload-the-pic/">Upload the Pic</a></li>
                                         
                                     
                                 </ul>
@@ -224,7 +224,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/security-misconfiguration/missing-checks/">Missing checks</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/security-misconfiguration/missing-checks/">Missing checks</a></li>
                                         
                                     
                                 </ul>
@@ -243,7 +243,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class="current no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/server-side-request-forgery/fetch-weather-data/">Fetch weather data</a></li>
+                                            <li class="current no-icon"><a class="sidebar-nested-link" href="/labs/server-side-request-forgery/fetch-weather-data/">Fetch weather data</a></li>
                                         
                                     
                                 </ul>
@@ -262,7 +262,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/software-and-data-integrity-failures/check-cookies/">Check cookies</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/software-and-data-integrity-failures/check-cookies/">Check cookies</a></li>
                                         
                                     
                                 </ul>
@@ -281,7 +281,7 @@ viewBox="0 -3 400 100" width="320" height="90"
                                     
                                         
                                         
-                                            <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/labs/vulnerable-and-outdated-components/ualog/">UALog</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/labs/vulnerable-and-outdated-components/ualog/">UALog</a></li>
                                         
                                     
                                 </ul>
@@ -746,7 +746,7 @@ namespace MvcApp.Controllers
     <script src="/docs/js/bootstrap.js" defer></script>
 
 
-    <script type="text/javascript" src="http://localhost:1313/docs/js/bundle.js" defer></script>
+    <script type="text/javascript" src="/docs/js/bundle.js" defer></script>
         
 
         

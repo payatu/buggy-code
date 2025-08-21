@@ -13,7 +13,7 @@
       <link>http://localhost:1313/labs/ssrf/fetch-weather-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/labs/ssrf/fetch-weather-data/</guid>
-      <description>Challenge Solution Occasionally, certain requests are not visible on the Burp proxy as they are internal. However, these internal requests can still be exploited, We require your excellent skills to figure out the vulnerability. HomeController.cs&#xA;using Microsoft.AspNetCore.Mvc; using MvcApp.Models; using System.Diagnostics; using System.Data.SqlClient; using System.Net; namespace MvcApp.Controllers { public class DataController : Controller { public IActionResult Index() { return View(); } [HttpPost] public IActionResult FetchData ([FromBody] WeatherData wdata) { Debug.</description>
+      <description>Challenge Solution Occasionally, certain requests are not visible on the Burp proxy as they are internal. However, these internal requests can still be exploited, We require your excellent skills to figure out the vulnerability. HomeController.cs&#xA;using Microsoft.AspNetCore.Mvc;&#xD;using MvcApp.Models;&#xD;using System.Diagnostics;&#xD;using System.Data.SqlClient;&#xD;using System.Net;&#xD;namespace MvcApp.Controllers&#xD;{&#xD;public class DataController : Controller&#xD;{&#xD;public IActionResult Index()&#xD;{&#xD;return View();&#xD;}&#xD;[HttpPost]&#xD;public IActionResult FetchData ([FromBody] WeatherData wdata)&#xD;{&#xD;Debug.</description>
     </item>
   </channel>
 </rss>

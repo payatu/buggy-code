@@ -41,8 +41,10 @@ hero:
     path: "images" # path to image under configured assets directory. default 'images'
     filename: "Hero Image.png" # filename of your hero image (including file extension)
     alt: "Lotus Docs Screenshot" # Optional but recommended
-    boxShadow: true # default 'false' (excludes .svg images)
-    rounded: true # round the image corners? default 'false' (excludes .svg images)
+    boxShadow: false # default 'false' (excludes .svg images)
+    rounded: false # round the image corners? default 'false' (excludes .svg images)
+    height: 400px
+    width: 500px
   
 
 

@@ -1,4 +1,4 @@
-baseURL = 'http://127.0.0.1:8008/'
+baseURL = 'https://buggycode.netlify.app/'
 languageCode = 'en-us'
 title = 'Code Labs'
 

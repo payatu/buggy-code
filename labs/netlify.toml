@@ -6,4 +6,4 @@ command = "hugo --gc --minify --baseURL https://buggycodes.payatu.io/"
 ignore = "false"
 
 [build.environment]
-HUGO_VERSION = "0.154.4"
+HUGO_VERSION = "0.142.0"

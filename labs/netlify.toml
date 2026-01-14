@@ -6,4 +6,4 @@ command = "hugo --gc --minify --baseURL ${URL}"
 ignore = "false"
 
 [build.environment]
-HUGO_VERSION = "0.142.0"
+HUGO_VERSION = "0.154.4"

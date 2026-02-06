@@ -1,0 +1,80 @@
+---
+weight: 600
+title: "Insecure Design"
+description: ""
+icon: "foundation"
+date: "2025-10-15T16:21:50+05:30"
+lastmod: "2025-10-15T16:21:50+05:30"
+draft: false
+toc: false
+menu:
+  docs:
+    parent: "insecure-design"
+authors: Yakshita Sharma
+---
+
+{{< tabs tabTotal="2">}}
+{{% tab tabName="Challenge" %}}
+
+- In a developer's tale, a web page allows image uploads. During experimentation, someone stumbled upon an unexpected discovery while uploading a file, sparking curiosity and prompting further exploration. We require you excellent skills to figure out the vulnerability.
+
+````php {linenos=true,anchorlinenos=true}
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="../Resources/hmbct.png" />
+</head>
+<body>
+
+<div style="background-color:#c9c9c9;padding:15px;">
+      <button type="button" name="homeButton" onclick="location.href='index.html';">Home Page</button>
+      <button type="button" name="mainButton" onclick="location.href='fileupl.html';">Main Page</button>
+</div>
+<div align="center">
+<form action="" method="post" enctype="multipart/form-data">
+    <br>
+    <b>Select image : </b> 
+    <input type="file" name="file" id="file" style="border: solid;">
+    <input type="submit" value="Submit" name="submit">
+</form>
+	</div>
+<?php
+                  // Check if image file is a actual image or fake image
+                  if(isset($_POST["submit"])) {
+                    $target_dir = "uploads/";
+                    $target_file = $target_dir . basename($_FILES["file"]["name"]);
+                    $uploadOk = 1;
+                    $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+                    $type = $_FILES["file"]["type"];
+
+                      if($type != "image/png" && $type != "image/jpeg" ){
+                          echo "JPEG & PNG files are allowed.";
+                          $uploadOk = 0;
+                      }
+                      
+                      if($uploadOk == 1){
+                          move_uploaded_file($_FILES["file"]["tmp_name"], $target_file);
+                          echo "File uploaded ";
+                      }
+                  }
+                  ?>
+  </body>
+</html>
+
+````
+{{% /tab %}}
+{{% tab tabName="Solution" %}}
+
+````php {linenos=table,hl_lines=[3,"5-7"],anchorlinenos=true}
+Stay tuned for updates on the solution !!
+````
+{{% /tab %}}
+{{< /tabs >}}
+
+## References
+
+- [https://cheatsheetseries.owasp.org/](https://cheatsheetseries.owasp.org/)
+- [https://owasp.org/Top10/2025/A06_2025-Insecure_Design/](https://owasp.org/Top10/2025/A06_2025-Insecure_Design/)
+- [https://docs.microsoft.com/en-us/dotnet/standard/security/](https://docs.microsoft.com/en-us/dotnet/standard/security/)
+- [https://github.com/guardrailsio/awesome-dotnet-security](https://github.com/guardrailsio/awesome-dotnet-security)
+- [https://owasp.org/Top10/2025/](https://owasp.org/Top10/2025/)

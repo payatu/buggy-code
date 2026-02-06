@@ -1,0 +1,70 @@
+# Note: Template blocks require a 'weight' parameter so they're correctly ordered on the landing page
+
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  titleLogo:
+    path: "images/logos"
+    filename: "title_logo.png"
+    alt: "Payatu Logo"
+    height: 80px
+
+  title: "Buggy Codes by Payatu"
+  subtitle: Code review labs by **Payatu** comprising of challenges from all the OWASP Top 10 Web categories in languages like Python, PHP, Java, .NET and Node.js.
+
+  image:
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "hero_image.png" # filename of your hero image (including file extension)
+    alt: "Secure Code Image" # Optional but recommended
+    boxShadow: false # default 'false' (excludes .svg images)
+    rounded: false # round the image corners? default 'false' (excludes .svg images)
+    height: 400px
+    width: 500px
+
+  ctaButton:
+    icon: rocket_launch
+    btnText: "Get Started"
+    url: "/docs/"
+  cta2Button:
+    icon: construction
+    btnText: "Contributors"
+    url: "/contributors/"
+
+
+# Feature Grid
+featureGrid:
+  enable: true
+  weight: 20
+  template: feature grid
+
+  title: Why Buggy Codes?
+  subtitle: About Buggy Codes by Payatu.
+
+  items:
+    - title: Challenges in many languages
+      icon: language
+      description: Java, .NET, Python, PHP, Node.js.
+
+    - title: Different categories of bugs
+      icon: bug_report
+      description: All the different OWASP Top 10 categories.
+
+    - title: Secure code also provided
+      icon: lock
+      description: Solutions - secure code would also be released for each challenge.
+
+    - title: Constant Updation
+      icon: update
+      description: Challenges will be uploaded on regular basis.
+
+    - title: Dark Mode
+      icon: dark_mode
+      description: Dark mode option available for hacking feel.
+
+# Image compare
+imageCompare:
+  enable: false
+  weight: 0

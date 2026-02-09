@@ -1,0 +1,7 @@
+[build]
+publish = "buggy-code-hugo/public"
+command = "cd buggy-code-hugo && hugo --gc --minify -b https://buggycodes.payatu.io/"
+
+# Always trigger a rebuild, even if the files haven't changed.
+# See https://docs.netlify.com/configure-builds/file-based-configuration/#ignore-builds
+ignore = "false"

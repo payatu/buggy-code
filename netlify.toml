@@ -1,4 +1,5 @@
 [build]
+base = buggy-code-hugo
 publish = "buggy-code-hugo/public"
 command = "cd buggy-code-hugo && hugo --gc --minify -b https://buggycodes.payatu.io/"
 

@@ -1,7 +1,7 @@
 [build]
 base = "."
 publish = "public"
-command = "hugo --gc --minify -b https://buggycodes.payatu.io/"
+command = "hugo --gc --minify -b ${PURL}"
 
 # Always trigger a rebuild, even if the files haven't changed.
 # See https://docs.netlify.com/configure-builds/file-based-configuration/#ignore-builds

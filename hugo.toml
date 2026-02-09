@@ -1,4 +1,4 @@
-baseURL = 'http://10.55.55.198:1313/'
+baseURL = 'https://buggycodes.payatu.io/'
 languageCode = 'en-us'
 title = 'Code Labs'
 contentDir = 'content'
